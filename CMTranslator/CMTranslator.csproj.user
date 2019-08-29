@@ -7,7 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="View\Pages\EcInput.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Fragments\CloseableTabHeader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\Pages\EcInput.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Fragments\CloseableTabHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Style\BaseStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

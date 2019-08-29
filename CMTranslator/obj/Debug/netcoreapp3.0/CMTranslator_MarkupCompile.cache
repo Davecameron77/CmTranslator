@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 C:\Users\cadcam\source\repos\CMTranslator\CMTranslator\App.xaml
-11151548125
+4-744573482
 
-31995783763
+8-1363517185
 184-1229093404
-MainWindow.xaml;
+View\Fragments\CloseableTabHeader.xaml;View\MainWindow.xaml;View\Pages\EcInput.xaml;View\Style\BaseStyles.xaml;
 
 True
 
